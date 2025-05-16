@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
             try {
                 window.history.replaceState(
                     { search: searchQuery }, 
-                    `搜索: ${searchQuery} - LibreTV`, 
+                    `搜索: ${searchQuery} - KIKDTV`, 
                     `/s=${encodeURIComponent(searchQuery)}`
                 );
             } catch (e) {
