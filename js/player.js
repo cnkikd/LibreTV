@@ -234,7 +234,7 @@ function initializePageContent() {
     }
 
     // 设置页面标题
-    document.title = currentVideoTitle + ' - LibreTV播放器';
+    document.title = currentVideoTitle + ' - KIKDTV 播放器';
     document.getElementById('videoTitle').textContent = currentVideoTitle;
 
     // 初始化播放器
@@ -398,8 +398,8 @@ function initPlayer(videoUrl, sourceCode) {
         chromecast: true,                // 启用Chromecast投屏功能
         contextmenu: [                   // 自定义右键菜单
             {
-                text: '关于 LibreTV',
-                link: 'https://github.com/LibreSpark/LibreTV'
+                text: '关于 KIKDTV',
+                link: 'https://KIKD.EU.ORG'
             },
             {
                 text: '问题反馈',
